@@ -1,0 +1,40 @@
+Shamal Prasad S11219545
+Pranav Kumar S11219649
+Ravinesh Narayan  S11197324
+
+
+---About Program---
+The program is designed to generate solutions to the nQueen problem by creating solutions where no queens attack each other.
+
+The BackTracking Algorithm and Genetic algorithm are the 2 types of algorithms that were used to solve the nQueen problem.
+
+The BackTrackingAlgorithm class contains the implementation of the algorithms logic and functions to run the algorithm.
+
+The GeneticAlgorithm class contains the implementation of the algorithms logic and functions to run the algorithm.
+
+The Chromosome class has necessary functions that are needed by the main GeneticAlgorithm class.
+
+The ChessBoardGUI class draws the solution onto a chess board using a Java Swing class.
+
+The GA and BA class find the first solution to the nQueen problem and display it onto a chess board.
+
+The RacingNQueen class runs both algorithms to find out which one finds the solution first and plots a graph.
+
+The AlgorithmComparison class runs each algorithm to find mean, best worst and successRate for a specific N value and then tabulate the results.
+
+The main class is where the program begins and has the menu to select which function of the program you wish to run.
+
+---How to use Program---
+
+To find a solution to a nQueen problem based on a specific algorithm and then display it graphically, press 1.
+
+To run the algorithms a certain number of times and find out mean, best, worst and the SuccessRate, press 2.
+
+To display the results of the test from option 2, press 3.
+
+To race both algorithms to find out which one finds solutions in a lesser number of functional calls, press 4.
+
+Otherwise press Q or q to exit program
+
+
+Note: This program was built using Java JDk 17 and beyond, it would be better if you use JDK 21 or 22.
